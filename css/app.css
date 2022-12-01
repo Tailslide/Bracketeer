@@ -1,0 +1,386 @@
+@import url('open-iconic/font/css/open-iconic-bootstrap.min.css');
+
+html, body, #app, #main-grid
+{
+    height:100%;
+    width:100%;
+}
+
+.mud-treeview-dense {
+    padding: 0px;
+}
+.mud-treeview-item .mud-treeview-item-arrow .mud-icon-button, .mud-treeview-item .mud-treeview-item-checkbox .mud-icon-button {
+    padding: 0px !important;
+}
+
+.mud-main-content {
+    height:95%;
+}
+#out-tree, #output-item
+{
+  height:100%;
+}
+.mud-treeview-item-content {
+    padding: 0px;
+}
+
+#output-card
+{
+    height:95%;
+}
+
+#tree-card-content
+{
+    height:90%;
+}
+
+html, body {
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+h1:focus {
+    outline: none;
+}
+
+a, .btn-link {
+    color: #0071c1;
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: #1b6ec2;
+    border-color: #1861ac;
+}
+
+.btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
+  box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
+}
+
+.content {
+    padding-top: 1.1rem;
+}
+
+.valid.modified:not([type=checkbox]) {
+    outline: 1px solid #26b050;
+}
+
+.invalid {
+    outline: 1px solid red;
+}
+
+.validation-message {
+    color: red;
+}
+
+#blazor-error-ui {
+    background: lightyellow;
+    bottom: 0;
+    box-shadow: 0 -1px 2px rgba(0, 0, 0, 0.2);
+    display: none;
+    left: 0;
+    padding: 0.6rem 1.25rem 0.7rem 1.25rem;
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
+}
+
+    #blazor-error-ui .dismiss {
+        cursor: pointer;
+        position: absolute;
+        right: 0.75rem;
+        top: 0.5rem;
+    }
+
+.blazor-error-boundary {
+    background: url(data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNTYiIGhlaWdodD0iNDkiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIG92ZXJmbG93PSJoaWRkZW4iPjxkZWZzPjxjbGlwUGF0aCBpZD0iY2xpcDAiPjxyZWN0IHg9IjIzNSIgeT0iNTEiIHdpZHRoPSI1NiIgaGVpZ2h0PSI0OSIvPjwvY2xpcFBhdGg+PC9kZWZzPjxnIGNsaXAtcGF0aD0idXJsKCNjbGlwMCkiIHRyYW5zZm9ybT0idHJhbnNsYXRlKC0yMzUgLTUxKSI+PHBhdGggZD0iTTI2My41MDYgNTFDMjY0LjcxNyA1MSAyNjUuODEzIDUxLjQ4MzcgMjY2LjYwNiA1Mi4yNjU4TDI2Ny4wNTIgNTIuNzk4NyAyNjcuNTM5IDUzLjYyODMgMjkwLjE4NSA5Mi4xODMxIDI5MC41NDUgOTIuNzk1IDI5MC42NTYgOTIuOTk2QzI5MC44NzcgOTMuNTEzIDI5MSA5NC4wODE1IDI5MSA5NC42NzgyIDI5MSA5Ny4wNjUxIDI4OS4wMzggOTkgMjg2LjYxNyA5OUwyNDAuMzgzIDk5QzIzNy45NjMgOTkgMjM2IDk3LjA2NTEgMjM2IDk0LjY3ODIgMjM2IDk0LjM3OTkgMjM2LjAzMSA5NC4wODg2IDIzNi4wODkgOTMuODA3MkwyMzYuMzM4IDkzLjAxNjIgMjM2Ljg1OCA5Mi4xMzE0IDI1OS40NzMgNTMuNjI5NCAyNTkuOTYxIDUyLjc5ODUgMjYwLjQwNyA1Mi4yNjU4QzI2MS4yIDUxLjQ4MzcgMjYyLjI5NiA1MSAyNjMuNTA2IDUxWk0yNjMuNTg2IDY2LjAxODNDMjYwLjczNyA2Ni4wMTgzIDI1OS4zMTMgNjcuMTI0NSAyNTkuMzEzIDY5LjMzNyAyNTkuMzEzIDY5LjYxMDIgMjU5LjMzMiA2OS44NjA4IDI1OS4zNzEgNzAuMDg4N0wyNjEuNzk1IDg0LjAxNjEgMjY1LjM4IDg0LjAxNjEgMjY3LjgyMSA2OS43NDc1QzI2Ny44NiA2OS43MzA5IDI2Ny44NzkgNjkuNTg3NyAyNjcuODc5IDY5LjMxNzkgMjY3Ljg3OSA2Ny4xMTgyIDI2Ni40NDggNjYuMDE4MyAyNjMuNTg2IDY2LjAxODNaTTI2My41NzYgODYuMDU0N0MyNjEuMDQ5IDg2LjA1NDcgMjU5Ljc4NiA4Ny4zMDA1IDI1OS43ODYgODkuNzkyMSAyNTkuNzg2IDkyLjI4MzcgMjYxLjA0OSA5My41Mjk1IDI2My41NzYgOTMuNTI5NSAyNjYuMTE2IDkzLjUyOTUgMjY3LjM4NyA5Mi4yODM3IDI2Ny4zODcgODkuNzkyMSAyNjcuMzg3IDg3LjMwMDUgMjY2LjExNiA4Ni4wNTQ3IDI2My41NzYgODYuMDU0N1oiIGZpbGw9IiNGRkU1MDAiIGZpbGwtcnVsZT0iZXZlbm9kZCIvPjwvZz48L3N2Zz4=) no-repeat 1rem/1.8rem, #b32121;
+    padding: 1rem 1rem 1rem 3.7rem;
+    color: white;
+}
+
+    .blazor-error-boundary::after {
+        content: "An error has occurred."
+    }
+
+.loading-progress {
+    position: relative;
+    display: block;
+    width: 8rem;
+    height: 8rem;
+    margin: 20vh auto 1rem auto;
+}
+
+    .loading-progress circle {
+        fill: none;
+        stroke: #e0e0e0;
+        stroke-width: 0.6rem;
+        transform-origin: 50% 50%;
+        transform: rotate(-90deg);
+    }
+
+        .loading-progress circle:last-child {
+            stroke: #1b6ec2;
+            stroke-dasharray: calc(3.141 * var(--blazor-load-percentage, 0%) * 0.8), 500%;
+            transition: stroke-dasharray 0.05s ease-in-out;
+        }
+
+.loading-progress-text {
+    position: absolute;
+    text-align: center;
+    font-weight: bold;
+    inset: calc(20vh + 3.25rem) 0 auto 0.2rem;
+}
+
+    .loading-progress-text:after {
+        content: var(--blazor-load-percentage-text, "Loading");
+    }
+
+
+.type2 {
+    color: white;
+    background-color: #E48936;
+}
+
+.type3 {
+    color: white;
+    background-color: #FF00FF;
+}
+
+.type4 {
+    color: black;
+    background-color: #FFFF00;
+}
+
+.type5 {
+    color: black;
+    background-color: #CCCCCC;
+}
+
+.type6 {
+    color: white;
+    background-color: #59ACFF;
+}
+
+.type7 {
+    color: white;
+    background-color: #00CC00;
+}
+
+.type8 {
+    color: white;
+    background-color: #FF0000;
+}
+
+.type9 {
+    color: black;
+    background-color: #FFCC99;
+}
+
+.type10 {
+    color: black;
+    background-color: #D8F312;
+}
+
+.type11 {
+    color: white;
+    background-color: #C46AFF;
+}
+
+.type12 {
+    color: white;
+    background-color: #009999;
+}
+
+.type13 {
+    color: #006b3a;
+    background-color: #00FF99;
+}
+
+.type14 {
+    color: black;
+    background-color: #FFCCFF;
+}
+
+.type15 {
+    color: white;
+    background-color: blue;
+}
+
+.type16 {
+    color: black;
+    background-color: #CEF5FF;
+}
+
+.type17 {
+    color: black;
+    background-color: #C1C100;
+}
+
+.type18 {
+    color: black;
+    background-color: #FFFF9B;
+}
+
+.type19 {
+    color: black;
+    background-color: #A8FFA8;
+}
+
+.type20 {
+    color: white;
+    background-color: #666666;
+}
+
+.type21 {
+    color: black;
+    background-color: #BFBFFF;
+}
+
+.type22 {
+    color: #1c489b;
+    background-color: #E3B764;
+}
+
+.type23 {
+    color: black;
+    background-color: #FF9966;
+}
+
+.type24 {
+    color: white;
+    background-color: #AA0055;
+}
+
+.type25 {
+    color: #068300;
+    background-color: #ffb400;
+}
+
+.type26 {
+    color: black;
+    background-color: #FF1C8D;
+}
+
+.type27 {
+    color: #9c2130;
+    background-color: #63DECF;
+}
+
+.type28 {
+    color: black;
+    background-color: #E6E4CA;
+}
+
+.type29 {
+    color: black;
+    background-color: #d3aa97;
+}
+
+.type30 {
+    color: #b71313;
+    background-color: #f0f7b0;
+}
+
+.type31 {
+    color: black;
+    background-color: #8bd7ff;
+}
+
+.type32 {
+    color: black;
+    background-color: #eee400;
+}
+
+.type33 {
+    color: #ff00a0;
+    background-color: #00ff5f;
+}
+
+.type34 {
+    color: #d3efff;
+    background-color: #ff5f00;
+}
+
+.type35 {
+    color: red;
+    background-color: #f8cc00;
+}
+
+.type36 {
+    color: #9e4e52;
+    background-color: #d0dfbe;
+}
+
+.type37 {
+    color: #eaff3b;
+    background-color: #00bdc4;
+}
+
+.type38 {
+    color: black;
+    background-color: #ff91c0;
+}
+
+.type39 {
+    color: #921bac;
+    background-color: #e29f49;
+}
+
+.type40 {
+    color: #8c2aff;
+    background-color: #73d500;
+}
+
+.type41 {
+    color: red;
+    background-color: #00FFFF;
+}
+
+.type42 {
+    color: yellow;
+    background-color: #877616;
+}
+
+.type43 {
+    color: #a3ff4d;
+    background-color: #5c00b2;
+}
+
+.type44 {
+    color: #45ffff;
+    background-color: #ba0000;
+}
+
+.type45 {
+    color: #ffcdfd;
+    background-color: #007d06;
+}
+
+.type46 {
+    color: #e0ff4d;
+    background-color: black;
+}
+
+.type47 {
+    color: #e3ada3;
+    background-color: #1c525c;
+}
+
+.type48 {
+    color: white;
+    background-color: #A0A48E;
+}
+
+.type49 {
+    color: white;
+    background-color: #874425;
+}
+
+.type50 {
+    color: #0216ff;
+    background-color: #fde900;
+}
+
+.type51 {
+    color: white;
+    background-color: #0c0083;
+}
