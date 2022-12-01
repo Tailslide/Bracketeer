@@ -1,5 +1,39 @@
 @import url('open-iconic/font/css/open-iconic-bootstrap.min.css');
 
+html, body, #app, #main-grid
+{
+    height:100%;
+    width:100%;
+}
+
+.mud-treeview-dense {
+    padding: 0px;
+}
+.mud-treeview-item .mud-treeview-item-arrow .mud-icon-button, .mud-treeview-item .mud-treeview-item-checkbox .mud-icon-button {
+    padding: 0px !important;
+}
+
+.mud-main-content {
+    height:95%;
+}
+#out-tree, #output-item
+{
+  height:100%;
+}
+.mud-treeview-item-content {
+    padding: 0px;
+}
+
+#output-card
+{
+    height:95%;
+}
+
+#tree-card-content
+{
+    height:90%;
+}
+
 html, body {
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
@@ -99,3 +133,254 @@ a, .btn-link {
     .loading-progress-text:after {
         content: var(--blazor-load-percentage-text, "Loading");
     }
+
+
+.type2 {
+    color: white;
+    background-color: #E48936;
+}
+
+.type3 {
+    color: white;
+    background-color: #FF00FF;
+}
+
+.type4 {
+    color: black;
+    background-color: #FFFF00;
+}
+
+.type5 {
+    color: black;
+    background-color: #CCCCCC;
+}
+
+.type6 {
+    color: white;
+    background-color: #59ACFF;
+}
+
+.type7 {
+    color: white;
+    background-color: #00CC00;
+}
+
+.type8 {
+    color: white;
+    background-color: #FF0000;
+}
+
+.type9 {
+    color: black;
+    background-color: #FFCC99;
+}
+
+.type10 {
+    color: black;
+    background-color: #D8F312;
+}
+
+.type11 {
+    color: white;
+    background-color: #C46AFF;
+}
+
+.type12 {
+    color: white;
+    background-color: #009999;
+}
+
+.type13 {
+    color: #006b3a;
+    background-color: #00FF99;
+}
+
+.type14 {
+    color: black;
+    background-color: #FFCCFF;
+}
+
+.type15 {
+    color: white;
+    background-color: blue;
+}
+
+.type16 {
+    color: black;
+    background-color: #CEF5FF;
+}
+
+.type17 {
+    color: black;
+    background-color: #C1C100;
+}
+
+.type18 {
+    color: black;
+    background-color: #FFFF9B;
+}
+
+.type19 {
+    color: black;
+    background-color: #A8FFA8;
+}
+
+.type20 {
+    color: white;
+    background-color: #666666;
+}
+
+.type21 {
+    color: black;
+    background-color: #BFBFFF;
+}
+
+.type22 {
+    color: #1c489b;
+    background-color: #E3B764;
+}
+
+.type23 {
+    color: black;
+    background-color: #FF9966;
+}
+
+.type24 {
+    color: white;
+    background-color: #AA0055;
+}
+
+.type25 {
+    color: #068300;
+    background-color: #ffb400;
+}
+
+.type26 {
+    color: black;
+    background-color: #FF1C8D;
+}
+
+.type27 {
+    color: #9c2130;
+    background-color: #63DECF;
+}
+
+.type28 {
+    color: black;
+    background-color: #E6E4CA;
+}
+
+.type29 {
+    color: black;
+    background-color: #d3aa97;
+}
+
+.type30 {
+    color: #b71313;
+    background-color: #f0f7b0;
+}
+
+.type31 {
+    color: black;
+    background-color: #8bd7ff;
+}
+
+.type32 {
+    color: black;
+    background-color: #eee400;
+}
+
+.type33 {
+    color: #ff00a0;
+    background-color: #00ff5f;
+}
+
+.type34 {
+    color: #d3efff;
+    background-color: #ff5f00;
+}
+
+.type35 {
+    color: red;
+    background-color: #f8cc00;
+}
+
+.type36 {
+    color: #9e4e52;
+    background-color: #d0dfbe;
+}
+
+.type37 {
+    color: #eaff3b;
+    background-color: #00bdc4;
+}
+
+.type38 {
+    color: black;
+    background-color: #ff91c0;
+}
+
+.type39 {
+    color: #921bac;
+    background-color: #e29f49;
+}
+
+.type40 {
+    color: #8c2aff;
+    background-color: #73d500;
+}
+
+.type41 {
+    color: red;
+    background-color: #00FFFF;
+}
+
+.type42 {
+    color: yellow;
+    background-color: #877616;
+}
+
+.type43 {
+    color: #a3ff4d;
+    background-color: #5c00b2;
+}
+
+.type44 {
+    color: #45ffff;
+    background-color: #ba0000;
+}
+
+.type45 {
+    color: #ffcdfd;
+    background-color: #007d06;
+}
+
+.type46 {
+    color: #e0ff4d;
+    background-color: black;
+}
+
+.type47 {
+    color: #e3ada3;
+    background-color: #1c525c;
+}
+
+.type48 {
+    color: white;
+    background-color: #A0A48E;
+}
+
+.type49 {
+    color: white;
+    background-color: #874425;
+}
+
+.type50 {
+    color: #0216ff;
+    background-color: #fde900;
+}
+
+.type51 {
+    color: white;
+    background-color: #0c0083;
+}
